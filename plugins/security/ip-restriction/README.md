@@ -1,13 +1,14 @@
-# How to use the [INSERT PLUGIN] Plugin
+# How to use the ip-restriction Plugin
 
-- [What is [INSERT PLUGIN]](#what-is-the-[INSERT PLUGIN])
-- [Watch the video on how to use the [INSERT PLUGIN] plugin](#watch-the-video-on-how-to-use-the-[INSERT PLUGIN]plugin) 
-- [Installation using Deck](Installation-using-Deck)
-- [Installation using KIC](Installation-using-KIC)
+- [How to use the ip-restriction Plugin](#how-to-use-the-ip-restriction-plugin)
+  - [What is IP Restriction?](#what-is-ip-restriction)
+  - [Watch the video on how to use the ip-restriction plugin](#watch-the-video-on-how-to-use-the-ip-restriction-plugin)
+  - [Installation using Deck](#installation-using-deck)
+  - [Installation using KIC](#installation-using-kic)
 
-## What is the [INSERT PLUGIN]?
+## What is IP Restriction?
 
-## Watch the video on how to use the [INSERT PLUGIN] plugin
+## Watch the video on how to use the ip-restriction plugin
 
 <!--
 [![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
