@@ -1,12 +1,23 @@
-# How to use the ip-restriction Plugin
+# How to use the Ip Restriction Plugin
 
-- [How to use the ip-restriction Plugin](#how-to-use-the-ip-restriction-plugin)
+- [How to use the Ip Restriction Plugin](#how-to-use-the-ip-restriction-plugin)
   - [What is IP Restriction?](#what-is-ip-restriction)
   - [Watch the video on how to use the ip-restriction plugin](#watch-the-video-on-how-to-use-the-ip-restriction-plugin)
   - [Installation using Deck](#installation-using-deck)
   - [Installation using KIC](#installation-using-kic)
 
 ## What is IP Restriction?
+
+**IP Restriction:** allows businesses to control which IP addresses or ranges are allowed or denied access to the API. It can be used to whitelist trusted IPs or blacklist malicious IPs.
+
+**How it works with Kong**
+
+1. Create a Service and Route
+2. Test to see if we can proxy request
+3. Enable Kong’s IP Restriction Plugin to deny your IP address
+4. Proxy to the endpoint, (plugin is now enabled) using insomnia or `curl http://<kong-proxy-endpoint>:<port>/ip-restriction`. Test to see if I can now access the API. you should get `Error. You are denied.` error message.
+
+![IP Restriction](./../../images/IP-Restriction.png)
 
 ## Watch the video on how to use the ip-restriction plugin
 
@@ -21,7 +32,8 @@ To install this using deck:
 1. Navigate to this directory
 2. Make sure you have deck [installed](https://docs.konghq.com/deck/latest/installation/)
 3. Make sure you can connect: `deck gateway ping --headers Kong-Admin-Token:<token> --kong-addr http://<kong-admin-endpoint>` should return a successful response `Successfully connected to Kong! Kong version:  3.5.0.0`
-4. Run deck sync: `deck gateway sync --headers Kong-Admin-Token:kong --kong-addr http://<kong-admin-endpoint> --select-tag *name*-example kong.yaml`
+4. Run deck sync: `deck gateway sync --headers Kong-Admin-Token:kong --kong-addr http://<kong-admin-endpoint> --select-tag ip-restriction-example kong.yaml`
+5. Proxy to the endpoint, (plugin is now enabled) using insomnia or `curl http://<kong-proxy-endpoint>:<port>/ip-restriction`. Test to see if I can now access the API. you should get `Error. You are denied.` error message.
 
 ## Installation using KIC
 
@@ -52,5 +64,5 @@ service/kong-postgresql-hl             ClusterIP      None           <none>     
 2. **Add Ingress Resource:** `kubectl apply -f 2-echo-ingress.yaml` 
 3. **Note: `konghq.com/plugins: <plugin-name>` ingress annotation is already present for the plugin**
 4. **Proxy to the endpoint:** Using insomnia or `curl http://<kong-proxy-endpoint>:<port>/<plugin-endpoint>`
-5. **Add the plugin resource:** `kubectl apply -f 3-plugin-name-plugin.yaml`
-6. **Proxy to the endpoint, plugin is now enabled:** Using insomnia or `curl http://<kong-proxy-endpoint>:<port>/<plugin-endpoint>`
+5. **Add the plugin resource:** `kubectl apply -f 3-ip-restriction-plugin.yaml`
+6. **Proxy to the endpoint**: (plugin is now enabled) using insomnia or `curl http://<kong-proxy-endpoint>:<port>/ip-restriction`. Test to see if I can now access the API. you should get `Error. You are denied.` error message.
