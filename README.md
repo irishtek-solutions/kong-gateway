@@ -18,19 +18,19 @@ Plugins can be applied globally or scoped to specific services, consumers or rou
 
 #### Authentication plugins
 
-| Topic           | Content       | Videos         | Insomnia       | KIC           | Deck           |Status         |
-|-----------------|---------------|----------------|----------------|---------------|----------------|---------------|
+| Topic           | Content       | Videos         | KIC           | Deck           |Status         |
+|-----------------|---------------|----------------|---------------|----------------|---------------|
 | [Key Authentication](./plugins/authentication/key-authentication/) | <ul><li>  []  </li>  |  <ul><li>  []  </li>  | <ul><li>  []  </li>     | <ul><li>  []  </li>     |<ul><li>  []  </li>    | Not started
 
 #### Security
 
-| Topic           | Content       | Videos         | Insomnia       | KIC           | Deck           |Status         |
-|-----------------|---------------|----------------|----------------|---------------|----------------|---------------|
+| Topic           | Content       | Videos         | KIC           | Deck           |Status         |
+|-----------------|---------------|----------------|----------------|---------------|----------------|
 | [IP Restriction](./plugins/security/ip-restriction/) | <ul><li>  []  </li>  |  <ul><li>  []  </li>  | <ul><li>  []  </li>     | <ul><li>  []  </li>     |<ul><li>  []  </li>    | Not started
 | [Rate Limiting Advanced](./plugins/security/rate-limiting-adv/) | <ul><li>  []  </li>  |  <ul><li>  []  </li>  | <ul><li>  []  </li>     | <ul><li>  []  </li>     |<ul><li>  []  </li>    | Not started
 
 #### Transformation
 
-| Topic           | Content       | Videos         | Insomnia       | KIC           | Deck           |Status         |
-|-----------------|---------------|----------------|----------------|---------------|----------------|---------------|
+| Topic           | Content       | Videos         | KIC           | Deck           |Status         |
+|-----------------|---------------|----------------|---------------|----------------|---------------|
 | [Exit Transformer](./plugins/transformation/exit-transformer/) | <ul><li>  []  </li>  |  <ul><li>  []  </li>  | <ul><li>  []  </li>     | <ul><li>  []  </li>     |<ul><li>  []  </li>    | Not started
