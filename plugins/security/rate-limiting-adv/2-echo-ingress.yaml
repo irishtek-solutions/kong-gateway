@@ -10,7 +10,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /rate-limiting-adv
+      - path: /rate-limit-adv
         pathType: ImplementationSpecific
         backend:
           service:
