@@ -1,10 +1,10 @@
 # How to use the exit-transformer Plugin
 
 - [How to use the exit-transformer Plugin](#how-to-use-the-exit-transformer-plugin)
-  - [What is the Exit Transformer plugin?](#what-is-the-exit-transformer-plugin)
-  - [Watch the video on how to use the exit-transformer plugin](#watch-the-video-on-how-to-use-the-exit-transformer-plugin)
-  - [Installation using Deck](#installation-using-deck)
-  - [Installation using KIC](#installation-using-kic)
+	- [What is the Exit Transformer plugin?](#what-is-the-exit-transformer-plugin)
+	- [Watch the video on how to use the exit-transformer plugin](#watch-the-video-on-how-to-use-the-exit-transformer-plugin)
+	- [Installation using Deck](#installation-using-deck)
+	- [Installation using KIC](#installation-using-kic)
 
 IMPORTANT: [untrusted-lua](https://docs.konghq.com/gateway/latest/reference/configuration/#untrusted_lua) must be set to either on or sandbox in your kong configuration file for this plugin to work. The default value is sandbox, which means that Lua functions are allowed, but will be executed in a sandbox which has limited access to the Kong global environment.
 

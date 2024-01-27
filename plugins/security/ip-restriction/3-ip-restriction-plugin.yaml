@@ -8,4 +8,4 @@ metadata:
 plugin: ip-restriction
 config:
   deny:
-  - 54.13.21.1
+  - 10.128.0.48
