@@ -8,11 +8,11 @@ Consumers in Kong are often associated with key authentication, OAuth, or other 
 
 ## How to create a Consumer in the UI - Video
 
-[Youtube video on creating a Consumer])
+[Youtube video on creating a Consumer](https://youtu.be/pS2iqOjRK9o)
 
 ## Video on how to create a Consumer using Deck
 
-[Youtube video on creating a Consumer using Deck](FIX)
+[Youtube video on creating a Consumer using Deck](https://youtu.be/9s33A6h6N5g)
 
 To install this using deck:
 
@@ -23,12 +23,12 @@ To install this using deck:
 
 ## Deploy your first Consumer using the Admin API
 
-[Youtube video on creating a Consumer using the Admin API](FIX)
+[Youtube video on creating a Consumer using the Admin API](https://youtu.be/FByjJNS1bsA)
 
 
 ## Deploy your first Consumer using KIC
 
-[Youtube video on creating a Consumer using the KIC](FIX)
+[Youtube video on creating a Consumer using the KIC](https://youtu.be/1cqYRYilvoE)
 
 
 **Pre-requisite**

@@ -1,10 +1,4 @@
 _format_version: "3.0"
-_info:
-  defaults: {}
-  select_tags:
-  - first-consumer
-_konnect:
-  runtime_group_name: default
 consumers:
-- custom_id: john-consumer
-  username: john-consumer
+- custom_id: john-id
+  username: john
