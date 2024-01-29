@@ -24,9 +24,9 @@
 
 ## Watch the video on how to use the key-authentication plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Using Key Authentication](https://www.youtube.com/watch?v=AamUp3JBB6o)
+[Using Key Authentication with KIC](https://www.youtube.com/watch?v=TOUhx9eF4nQ)
+
 
 ## Installation using Deck
 

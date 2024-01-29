@@ -21,9 +21,8 @@
 
 ## Watch the video on how to use the ip-restriction plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Using the IP Restriction Plugin](https://youtu.be/jEwoLV4U1yA)
+[Using the IP Restriction Plugin with KIC](https://youtu.be/4393zg7c1u4)
 
 ## Installation using Deck
 

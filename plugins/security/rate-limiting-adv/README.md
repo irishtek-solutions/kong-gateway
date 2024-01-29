@@ -23,9 +23,8 @@
 
 ## Watch the video on how to use the rate-limiting-advanced plugin
 
-<!--
-[![First [PLUGIN NAME]](./images/activate.png)](https://youtu.be/ "First [PLUGIN NAME]")
--->
+[Using the Rate Limiting Advanced Plugin](https://youtu.be/mvE-_Jdz6WE)
+[Using the Rate Limiting Advanced Plugin with KIC](https://youtu.be/-P1Qr6DIMgQ)
 
 ## Installation using Deck
 
