@@ -10,13 +10,13 @@ A Route is essentially a mapping between a specific path or host and a Service. 
 
 **Pre-requisite:** Kong Gateway up and running. 
 
-## How to create a Service and Route in the UI
+## How to create a Service and Route in Kong Manager UI
 
-[Youtube video on creating a Service and Route](FIX)
+[Youtube video on creating a Service and Route](https://youtu.be/4oso21-f2fM)
 
 ## Video on how to create a Service and Route using Deck
 
-[Youtube video on creating a Service and Route using Deck](FIX)
+[Youtube video on creating a Service and Route using Deck](https://youtu.be/es3I4Xpy7vY)
 
 To install this using deck:
 
@@ -27,12 +27,12 @@ To install this using deck:
 
 ## Deploy your first Service and Route using the Admin API
 
-[Youtube video on creating a Service and Route using the Kongs Admin API]()
+[Youtube video on creating a Service and Route using the Kongs Admin API](https://youtu.be/JS52aT86JoU)
 
 
 ## Deploy your first Service and Route using KIC
 
-[Youtube video on creating a Service and Route using KIC]()
+[Youtube video on creating a Service and Route using KIC](https://youtu.be/zHbM22nSh8g)
 
 
 **Pre-requisite**

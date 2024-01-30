@@ -1,19 +1,17 @@
 _format_version: "3.0"
-_info:
-  defaults: {}
-  select_tags:
-  - first-service-route
-_konnect:
-  runtime_group_name: default
 services:
 - connect_timeout: 60000
   enabled: true
   host: httpbin.org
-  name: api-service
+  name: first-service
   path: /anything
+  port: 80
+  protocol: http
+  read_timeout: 60000
+  retries: 5
   routes:
   - https_redirect_status_code: 426
-    name: api-route
+    name: first-route
     path_handling: v0
     paths:
     - /api
