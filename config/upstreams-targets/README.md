@@ -14,7 +14,7 @@ In Kong, "Upstreams" and "Targets" are concepts related to load balancing, which
 - Targets are the actual endpoints where Kong forwards incoming requests for load balancing. Each target is associated with an Upstream, and Kong dynamically distributes traffic among the available targets based on the configured load-balancing algorithm.
 - When a request arrives at Kong, it selects a target within the associated Upstream and forwards the request to that target.
 
-![Upstream Targets](../images/upstreams-targets-new-no-trans.png)
+![Upstream Targets](../images/up-targets.png)
 
 **Pre-requisite:** Kong Gateway up and running.
 
