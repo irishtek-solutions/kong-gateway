@@ -16,6 +16,10 @@ In Kong, "Upstreams" and "Targets" are concepts related to load balancing, which
 
 ![Upstream Targets](../images/upstream-targets2.png)
 
+Upstreams and targets work a little different when using Kong ingress controller 
+
+![Upstream Targets KIC](../images/upstreams-targets-k8.png)
+
 **Pre-requisite:** Kong Gateway up and running.
 
 ## How to create an Upstream and Target the UI
