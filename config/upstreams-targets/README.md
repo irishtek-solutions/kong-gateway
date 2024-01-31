@@ -24,11 +24,11 @@ Upstreams and targets work a little differently when using Kongs Ingress control
 
 ## How to create an Upstream and Target the UI
 
-[Youtube video on creating A Upstream and Target]()
+[Youtube video on creating A Upstream and Target](https://youtu.be/P_h0AE3F5zI)
 
 ## Video on how to create an Upstream and Target using Deck
 
-[Youtube video on creating A Upstream and Target using Deck]()
+[Youtube video on creating A Upstream and Target using Deck](https://youtu.be/xNtAJm7ZDh8)
 
 To install this using deck:
 
@@ -58,11 +58,11 @@ Summary:
 
 ## Deploy your firstUpstream and Target using the Admin API
 
-[Youtube video on creating A Upstream and Target using the Kongs Admin API]()
+[Youtube video on creating A Upstream and Target using the Kongs Admin API](https://youtu.be/uuBTMkCl9Aw)
 
 ## Deploy your firstUpstream and Target using KIC
 
-[Youtube video on creating A Upstream and Target using KIC]()
+[Youtube video on creating A Upstream and Target using KIC](https://youtu.be/xNtAJm7ZDh8)
 
 **Pre-requisite**
 
